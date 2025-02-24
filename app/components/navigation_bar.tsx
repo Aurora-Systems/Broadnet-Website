@@ -26,7 +26,7 @@ export const Navbar = () => {
     return (
         <nav className="bg-white rounded mt-3 z-1 navbar navbar-expand-lg bg-white position-sticky top-0 pt-3 w-100 ">
             <div className="container">
-                <Link href="/" onClick={closeNavbar}><h5 className="mt-1 me-3" >Aurora</h5></Link>
+                <Link href="/" onClick={closeNavbar}><h5 className="mt-1 me-3" >Broadnet</h5></Link>
                 <button className="navbar-toggler bg-white border-0" type="button" onClick={toggleNavbar}>
                     <i className="bi bi-list text-primary"></i>
                 </button>

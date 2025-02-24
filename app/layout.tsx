@@ -1,4 +1,3 @@
-import Head from "next/head";
 import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
 import "./globals.css";
@@ -9,8 +8,8 @@ import { LinkedInInsightTag } from "nextjs-linkedin-insight-tag";
 const league = League_Spartan({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aurora",
-  description: "Accelerating Digital Adoption.",
+  title: "Broadnet",
+  description: "IT Innovation & Excellence",
 };
 
 export default function RootLayout({
@@ -20,19 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-EV70L5Z3LW"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-EV70L5Z3LW');
-            `,
-          }}
-        />
-      </Head>
+     
       <body className={`${league.className} container`}>
         <Navbar/>
         {children}

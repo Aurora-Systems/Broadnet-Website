@@ -7,10 +7,10 @@ export default function Home() {
    <div className="d-flex justify-content-center align-items-center vh-100">
       <div className="row gap-2  d-flex align-items-center animate__animated animate__fadeInDown">
         <div className="col-sm text-center text-md-start mb-3 ">
-          <h3 className="display-1 fw-bold ">
-            ACCELERATING <br/> DIGITAL <br/> ADOPTION
+          <h3 className="display-2 fw-bold ">
+            Empowering Africa <br/> Through Technology
           </h3>
-          <p>We build to scale by thoroughly validating and conducting a series of investigations to provide you with a robust ecosystem.</p>
+          <p>Driving digital transformation with innovative, secure, and scalable ICT solutions across Africa.</p>
           <Link href="/contact_us"><button className="btn p-btn">Ready To Build?</button></Link>
         </div>
         <div className="col-sm  text-center">
@@ -27,11 +27,11 @@ export default function Home() {
       <div className="d-flex justify-content-center align-items-center mt-5 mb-5">
       <div className="row mb-5 gap-2 d-flex align-items-center">
         <div className="col-sm text-center text-md-start">
-          <h3 className="display-5 fw-bold">WHAT DO WE DO?</h3>
+          <h3 className="display-5 fw-bold">ABOUT US?</h3>
           <p>
-            We transform innovative ideas into cutting-edge digital solutions. Our team of software developers, designers, and strategists are experts in bringing visions to life through custom software and applications.
+          Since its inception, Broadnet Africa has been providing total IT solutions and comprehensive support services through dedicated strategic partnerships to our clients. As an ICT solutions and services provider, with over 10 years of existence and experience serving some of the world’s foremost organizations on the African continent and an experienced technical team, Broadnet understands the growing demands of the African market.
           </p>
-          <Link href="/contact_us"><button className="btn p-btn">I have an idea!</button></Link>
+          <Link href="/contact_us"><button className="btn p-btn">Get In Touch</button></Link>
         </div>
         <div className="col-sm text-center">
           <Image 
@@ -46,37 +46,33 @@ export default function Home() {
       </div>
       <div className="mb-5 container">
         <div className="text-center">
-          <h3 className="display-5 fw-bold">OUR PROCESS</h3>
+          <h3 className="display-5 fw-bold">OUR SERVICES</h3>
 
           <div className="row gap-4 ">
-            <div className="col-sm text-start border rounded p-3">
+            <div className="col-sm text-center border rounded p-3">
             <h1 ><i className="bi bi-book-half"></i></h1>
-              <h5 className="fw-bold">Discovery and Planning</h5>
+              <h5 className="fw-bold">BroadTrak</h5>
               <p>
-                We begin with an in-depth understanding of your goals, challenges, and vision, laying a strong foundation for the project
+              BroadTrak, a division of Broadnet Africa, provides cutting-edge vehicle tracking and fleet management solutions. Our services include real-time fleet management, fuel monitoring, and telematics, ensuring optimal efficiency and cost control. With our vehicle tracking and recovery solutions, you can enhance security and minimize losses. Stay in control with BroadTrak’s smart mobility solutions.
               </p>
             </div>
-            <div className="col-sm text-start border rounded p-3">
+            <div className="col-sm text-center border rounded p-3">
               <h1><i className="bi bi-pencil-square"></i></h1>
-              <h5 className="fw-bold">Design and Prototyping</h5>
-              <p>
-              Interactive prototypes visualize the end product, focusing on user-centric designs that are both practical and innovative.
+              <h5 className="fw-bold">Intactsys</h5>
+              <p className="text-center">
+
+IntactSys, a division of Broadnet Africa, specializes in DevOps and SecOps, delivering robust cybersecurity, advanced software development, and tailored business solutions. We help organizations streamline operations, enhance security, and drive digital transformation with cutting-edge technology. Build, secure, and scale with IntactSys.
               </p>
             </div>
-            <div className="col-sm text-start border rounded p-3">
+            <div className="col-sm text-center border rounded p-3">
               <h1><i className="bi bi-git"></i></h1>
-              <h5 className="fw-bold">Development and Testing</h5>
-              <p>
-                Our developers ensure robust, scalable, and secure solutions, with rigorous testing to guarantee optimal performance.
+              <h5 className="fw-bold">Fortis-Comm</h5>
+              <p className="text-center">
+
+Fortis-Comm, a division of Broadnet Africa, specializes in two-way radio devices and communication solutions, offering both hardware and software sales. We provide secure, high-performance communication systems designed for businesses, emergency services, and industries that demand seamless connectivity. Stay connected with Fortis-Comm’s trusted solutions.
               </p>
             </div>
-            <div className="col-sm text-start border rounded p-3">
-              <h1><i className="bi bi-rocket-takeoff"></i></h1>
-              <h5 className="fw-bold">Launch and Support</h5>
-              <p>
-                We facilitate smooth software deployment and provide ongoing support to ensure continued success and adaptability.
-              </p>
-            </div>
+            
           </div>
         </div>
         <div className="mt-3 mb-3 text-center">
@@ -87,7 +83,7 @@ export default function Home() {
         </div>
       </div>
       <div className="text-center">
-        <h1 className="mb-3">Our Global Clients</h1>
+        <h1 className="mb-3">Our Global Partners</h1>
           <Marquee loop={0} className="gap-5 z-0">
           <div className="col-sm  me-5">
               <Image src="https://ngratesc.sirv.com/nairet/favicon_logo.png" width={40} height={40} alt="FIF logo"/>

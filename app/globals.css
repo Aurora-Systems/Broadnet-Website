@@ -3,9 +3,9 @@
 @import "~animate.css";
 
 :root{
-  --bg-gradient: linear-gradient( #5de0e6, #004aed);
-  --light-primary: #5de0e6;
-  --dark-primary: #004aed; 
+  --bg-gradient: linear-gradient( #85c227,  #07923f);
+  --light-primary: #85c227;
+  --dark-primary: #07923f; 
 }
 
 .p_bg{
@@ -45,7 +45,7 @@ a{
 }
 
 .nav-link{
-  color: #136dc2 !important;
+  color: var(--light-primary) !important;
 }
 
 .roadmap_container{
