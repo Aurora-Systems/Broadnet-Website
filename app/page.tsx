@@ -79,7 +79,7 @@ Fortis-Comm, a division of Broadnet Africa, specializes in two-way radio devices
             <Link href="/contact_us"><button className="btn p-btn">Discuss Your Next Project With Us</button></Link>
         </div>
         <div className="text-center mb-5 mt-5">
-          <Image src="https://ngratesc.sirv.com/website/bleu_mobile.png" className="img-fluid" width={500} height={100} alt="Mockup preview of WLC website"/>
+          <Image src="https://ngratesc.sirv.com/Broadnet/home%20page.png" className="img-fluid" width={200} height={100} alt="Mockup preview of WLC website"/>
         </div>
       </div>
       <div className="text-center">
@@ -150,17 +150,17 @@ Fortis-Comm, a division of Broadnet Africa, specializes in two-way radio devices
       <div className="text-center">
         <div >
         <Image 
-          src="https://ngratesc.sirv.com/website/iclaim_preview.png" 
-          width={300} 
+          src="https://ngratesc.sirv.com/Broadnet/award.jpg" 
+          width={500} 
           height={0}
-          className="img-fluid"
+          className="img-fluid rounded"
           alt="Mockup of i-Claim website"
         />
         </div>
         <div >
-          <h1>We Revolutionize Industries</h1>
-          <p>Discover how we developed i-Claim and how it’s helping insurance companies save up to 40% annually.</p>
-          <Link target="_blank" href="https://iclaim.aurorasystems.co.zw"><button className="btn p-btn">Read More</button></Link>
+          <h1>Our Awards</h1>
+          <p>Motorola Solutions Partner Award</p>
+          <Link target="_blank" href="https://www.motorolasolutions.com/en_xu/partner-finder.html"><button className="btn p-btn">Read More</button></Link>
         </div>
 
       
