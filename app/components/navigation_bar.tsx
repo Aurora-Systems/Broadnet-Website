@@ -26,7 +26,7 @@ export const Navbar = () => {
     return (
         <nav className="bg-white rounded mt-3 z-1 navbar navbar-expand-lg bg-white position-sticky top-0 pt-3 w-100 ">
             <div className="container">
-                <Link href="/" onClick={closeNavbar}><h5 className="mt-1 me-3" >Broadnet</h5></Link>
+                <Link href="/" onClick={closeNavbar}><Image src="https://ngratesc.sirv.com/Broadnet/logo.png" width="50"  height="50"  alt="Broadnet"/></Link>
                 <button className="navbar-toggler bg-white border-0" type="button" onClick={toggleNavbar}>
                     <i className="bi bi-list text-primary"></i>
                 </button>
@@ -42,32 +42,24 @@ export const Navbar = () => {
                                 <button type="button" className='bg-white btn-none border-0 ms-0 nav-link' data-bs-toggle="dropdown" aria-expanded="false">Services <i className="bi bi-chevron-down"></i></button>
                                 <ul className='dropdown-menu'>
                                     <li className='pointer'>
-                                        <a className='dropdown-item' onClick={() => handleNavigation(page_links.services.custom_dev)}>Custom Software Development</a>
+                                        <a className='dropdown-item' onClick={() => handleNavigation(page_links.services.broadtrak)}>BroadTrak</a>
                                     </li>
                                     <li  className='pointer'>
-                                        <a className='dropdown-item' onClick={() => handleNavigation(page_links.services.ux)}>User Interface Design UI | UX</a>
+                                        <a className='dropdown-item' onClick={() => handleNavigation(page_links.services.intactsys)}>Intactsys</a>
                                     </li>
                                     <li  className='pointer'>
-                                        <a className='dropdown-item' onClick={() => handleNavigation(page_links.services.mobile_dev)}>Mobile App Development</a>
+                                        <a className='dropdown-item' onClick={() => handleNavigation(page_links.services.fortis_comm)}>Fortis-Comm</a>
                                     </li>
-                                    <li  className='pointer'>
-                                        <a className='dropdown-item' onClick={() => handleNavigation(page_links.services.ai)}>AI and Automation</a>
-                                    </li>
-                                    <li  className='pointer'>
-                                        <a className='dropdown-item' onClick={() => handleNavigation(page_links.services.web_dev)}>Web Development</a>
-                                    </li>
-                                    <li  className='pointer'>
-                                        <a className='dropdown-item' onClick={() => handleNavigation(page_links.services.idea_validation)}>Idea Validation</a>
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" href={page_links.roadmap} onClick={closeNavbar}>Roadmap</Link> 
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" href={page_links.portfolio} onClick={closeNavbar}>Portfolio</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <Link className="nav-link" href={page_links.careers} onClick={closeNavbar}>Careers</Link>
                         </li>
@@ -93,26 +85,25 @@ export const Footer=()=>{
                 <div>
                     <h6 className='mb-3'>Contact Details</h6>
                 </div>
-                <p><i className="bi bi-envelope me-2 "></i>support@aurorasystems.co.zw</p>
-                <p><i className="bi bi-telephone me-2"></i>+263 78 004 0000</p>
-                <p><i className="bi bi-geo-alt me-2"></i>258 Smuts Rd<br/><span className='ms-4'>Waterfalls</span><br/><span className='ms-4'>Harare</span><br/><span className='ms-4'>Zimbabwe</span></p>
+                <p><i className="bi bi-envelope me-2 "></i>sinfo@broadnetafrica.net</p>
+                <p><i className="bi bi-telephone me-2"></i>+263 77 514 6727</p>
+                <p><i className="bi bi-geo-alt me-2"></i>31 Mc Meekan Rd<br/><span className='ms-4'> Milton Park</span><br/><span className='ms-4'>Harare</span><br/><span className='ms-4'>Zimbabwe</span></p>
             </div>
             <div className="col-sm">
                 <div className='mb-3'>
                     <h6 >Services</h6>
                 </div>
-                <p><Link href={page_links.services.ai}>AI and Automation</Link></p>
-                <p><Link href={page_links.services.web_dev}>Web Development</Link></p>
-                <p><Link href={page_links.services.ux}>User Interface design | UI/UX</Link></p>
-                <p><Link href={page_links.services.mobile_dev}>Mobile App Development</Link></p>
-                <p><Link href={page_links.services.custom_dev}>Custom Software Development</Link></p>
+                <p><Link href={page_links.services.broadtrak}>BroadTrak</Link></p>
+                <p><Link href={page_links.services.intactsys}>Intactsys</Link></p>
+                <p><Link href={page_links.services.fortis_comm}>Fortis-Comm</Link></p>
+             
             </div>
             <div className="col-sm">
                 <div className='mb-3'>
                     <h6>Pages</h6>
                 </div>
-                <p><Link href={page_links.roadmap}>Roadmap</Link></p>
-                <p><Link href={page_links.portfolio}>Porfolio</Link></p>
+                {/* <p><Link href={page_links.roadmap}>Roadmap</Link></p>
+                <p><Link href={page_links.portfolio}>Porfolio</Link></p> */}
                 <p><Link href={page_links.careers}>Careers</Link></p>
                 <p><Link href={page_links.blog}>Blog</Link></p>
                 <p><Link href={page_links.contact}>Contact us</Link></p>

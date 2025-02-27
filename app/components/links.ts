@@ -7,13 +7,10 @@ const page_links = {
     blog: "/blog",
     legal: "/legal",
     services: {
-        ai: "/services/ai_and_automation",
-        ux: "/services/ux_design",
-        mobile_dev: "/services/mobile_app_development",
-        project_management: "/services/project_management",
-        web_dev: "/services/web_app_development",
-        custom_dev: "/services/custom_software_development",
-        idea_validation:"/services/idea_validation"
+        broadtrak: "/services/ai_and_automation",
+        intactsys: "/services/ux_design",
+        fortis_comm: "/services/mobile_app_development",
+       
     }
 }
 

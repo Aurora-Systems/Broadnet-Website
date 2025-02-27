@@ -22,7 +22,7 @@ export default function Careers() {
     return (
         <div className="min-vh-100 d-flex align-items-center justify-content-center">
             <div>
-                <h1 className="display-1 fw-bold">JOIN THE A-Team</h1>
+                <h1 className="display-1 fw-bold">JOIN BROADNET</h1>
                 <p>We are big on passion, express yourself, make decisions that matter!</p>
                 <div className="rounded p-3 bg-light">
 
