@@ -86,67 +86,64 @@ Fortis-Comm, a division of Broadnet Africa, specializes in two-way radio devices
         <h1 className="mb-3">Our Global Partners</h1>
           <Marquee loop={0} className="gap-5 z-0">
           <div className="col-sm  me-5">
-              <Image src="https://ngratesc.sirv.com/nairet/favicon_logo.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>Nairet</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/avigilon.png" width={40} height={40} alt="FIF logo"/>
+              <p><small>Avigilon</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/mae_website/logo%20MAE%20DISTRIBUTORS.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>MAE</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/checkpoint.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>Checkpoint</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Delphy/favicon.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>Delphy</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/cisco.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>Cisco</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/fif.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>FIF College</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/dell.png" width={40} height={40} alt="FIF logo"/>
+              <p><small>Dell</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/prospect.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>PPPMH</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/fortinet.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>Fortinet</small></p>
 
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/zso.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>ZSO</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/hp.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>HP</small></p>
 
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/bellprize.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>Bellprize</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/hytera.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>Hytera</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/riom.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>Riom Medcare</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/ibm.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>IBM</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/logoBig.webp" width={40} height={40} alt="FIF logo"/>
-              <p><small>StartUp</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/inmarsat.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>Inmarsat</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/exalt.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>Exalt</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/motorola.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>Motorola</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/ristian/logo.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>Ristian</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/ntt.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>NTT</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/grimaco/logo.png" width={40} height={40} alt="FIF logo"/>
-              <p><small>Grimaco</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/poly.jpeg" width={40} height={40} alt="FIF logo"/>
+              <p><small>Poly</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/nehms.png" width={100} height={40} alt="FIF logo"/>
-              <p><small>NEMHS</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/ruckus.png" width={100} height={40} alt="FIF logo"/>
+              <p><small>Ruckus</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/OFH.png" width={90} height={40} alt="OFH logo"/>
-              <p><small>OFH</small></p>
+              <Image src="https://ngratesc.sirv.com/Broadnet/solarwinds.jpeg" width={90} height={40} alt="OFH logo"/>
+              <p><small>Solarwinds</small></p>
             </div>
-            <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/website/WLC.webp" width={40} height={40} alt="OFH logo"/>
-              <p><small>WLC</small></p>
-            </div>
+          
           </Marquee>
       </div>
       <div className="row mt-5 mb-5">
