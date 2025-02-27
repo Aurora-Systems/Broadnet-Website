@@ -15,9 +15,9 @@ export default function Home() {
         </div>
         <div className="col-sm  text-center">
           <Image 
-            src="https://ngratesc.sirv.com/website/lander%20bleu.png"
-            className="img-fluid ms-5" 
-            width={200} 
+            src="https://ngratesc.sirv.com/Broadnet/105393.jpg"
+            className="img-fluid ms-5 rounded" 
+            width={1000} 
             height={500}
             alt="Mockup of Bleu on a phone, evolutionary Neobank"
           />
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
         <div className="col-sm text-center">
           <Image 
-            src="https://ngratesc.sirv.com/website/zimservices.png" 
+            src="https://ngratesc.sirv.com/Broadnet/logo.png" 
             width={600} 
             height={650}
             className="img-fluid"
