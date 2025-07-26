@@ -206,7 +206,7 @@ export default function BroadTrak() {
                   Join leading organizations across Africa who trust BroadTrak
                   for their vehicle tracking and fleet management needs.
                 </p>
-                <Link href="/contact">
+                <Link href="/contact_us">
                   <button className="btn p-btn">Get Started</button>
                 </Link>
               </div>

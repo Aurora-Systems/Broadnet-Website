@@ -213,7 +213,7 @@ export default function FortisComm() {
                   Join leading organizations across Africa who trust Fortis-Comm
                   for their two-way radio and communication solution needs.
                 </p>
-                <Link href="/contact">
+                <Link href="/contact_us">
                   <button className="btn p-btn">Get Started</button>
                 </Link>
               </div>

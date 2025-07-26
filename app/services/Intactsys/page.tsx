@@ -202,7 +202,7 @@ export default function IntactSys() {
                   Join leading organizations across Africa who trust IntactSys
                   for their DevOps, SecOps, and digital transformation needs.
                 </p>
-                <Link href="/contact">
+                <Link href="/contact_us">
                   <button className="btn p-btn">Get Started</button>
                 </Link>
               </div>
