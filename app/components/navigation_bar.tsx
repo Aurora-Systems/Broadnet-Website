@@ -151,18 +151,16 @@ export const Footer = () => {
         <p>
           <i className="bi bi-envelope me-2 "></i>info@broadnetafrica.net
         </p>
+         <p>
+          <i className="bi bi-envelope me-2 "></i>sales@broadnetafrica.net
+        </p>
+         <p>
+          <i className="bi bi-envelope me-2 "></i>support@broadnetafrica.net
+        </p>
         <p>
           <i className="bi bi-telephone me-2"></i>+263 77 514 6727
         </p>
-        <p>
-          <i className="bi bi-geo-alt me-2"></i>31 Mc Meekan Rd
-          <br />
-          <span className="ms-4"> Milton Park</span>
-          <br />
-          <span className="ms-4">Harare</span>
-          <br />
-          <span className="ms-4">Zimbabwe</span>
-        </p>
+        
       </div>
       <div className="col-sm">
         <div className="mb-3">
