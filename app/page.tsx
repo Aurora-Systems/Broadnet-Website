@@ -1,7 +1,109 @@
+"use client"
 import Image from "next/image"
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 export default function Home() {
+  
+const OurCompetencies = () => {
+  const competencies = [
+    {
+      title: "Telephony and Voice",
+      description: "Providing a consolidated, virtualized, location-independent, secure and robust IP voice infrastructure as the platform for richer communication and collaboration.",
+      icon: "fas fa-phone-alt"
+    },
+    {
+      title: "Visual Communications",
+      description: "Adding visual impact to remote collaboration to eliminate the time and cost penalties of travelling, improve interaction, reduce process loss and transform business operations.",
+      icon: "fas fa-video"
+    },
+    {
+      title: "Collaborative Workspace",
+      description: "Reducing costs and increasing agility by integrating multiple communication channels presence and content within the user's working context.",
+      icon: "fas fa-users"
+    },
+    {
+      title: "Conferencing",
+      description: "Implementing and integrating the latest video and audio conferencing platforms to enable effective collaboration around the world.",
+      icon: "fas fa-desktop"
+    },
+    {
+      title: "Messaging",
+      description: "Improving productivity and responsiveness by providing rich messaging capabilities in one integrated experience.",
+      icon: "fas fa-comments"
+    },
+    {
+      title: "Telecommunications Management",
+      description: "Saving time, improving efficiency and optimizing your communications spend by managing all your fixed and mobile network services.",
+      icon: "fas fa-network-wired"
+    }
+  ];
+
+  return (
+    <section className="bg-light py-5">
+      <div className="container">
+        {/* Section Header */}
+        <div className="row mb-5">
+          <div className="col-12 text-center">
+            <h2 className="fw-bold mb-4 display-1">Our Competencies</h2>
+            <p className="mx-auto" style={{maxWidth: "800px"}}>
+              Broadnet Africa is a specialist wireless and wireline integrator with a proud 
+              history and strong reputation for delivering telecommunication technologies and networks. 
+              The Broadnet difference is our experience and ability to concentrate our collective 
+              efforts to make our clients successful.
+            </p>
+            <p className="text-muted mb-4">
+              We'll assist you in looking at these areas:
+            </p>
+          </div>
+        </div>
+
+        {/* Competency Cards */}
+        <div className="row g-4">
+          {competencies.map((competency, index) => (
+            <div key={index} className="col-lg-4 col-md-6">
+              <div className="card h-100 border-0 shadow-sm hover-card">
+                <div className="card-body text-center p-4">
+                  <div className="mb-3">
+                    <i className={`${competency.icon} fa-2x text-primary`}></i>
+                  </div>
+                  <h5 className="card-title fw-bold mb-3 text-dark">
+                    {competency.title}
+                  </h5>
+                  <p className="card-text text-muted">
+                    {competency.description}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Call to Action */}
+        <div className="row mt-5">
+          <div className="col-12 text-center">
+            <p className="text-muted mb-3">
+              Ready to transform your business communications?
+            </p>
+            <Link href="/contact_us"><button className="btn p-btn rounded">
+              Get Started Today
+            </button></Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Custom CSS for hover effects */}
+      <style jsx>{`
+        .hover-card {
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+        }
+      `}</style>
+    </section>
+  );
+};
   return (
     <main>
    <div className="d-flex justify-content-center align-items-center vh-100">
@@ -78,9 +180,50 @@ Fortis-Comm, a division of Broadnet Africa, specializes in two-way radio devices
         <div className="mt-3 mb-3 text-center">
             <Link href="/contact_us"><button className="btn p-btn">Discuss Your Next Project With Us</button></Link>
         </div>
-        <div className="text-center mb-5 mt-5">
-          <Image src="https://ngratesc.sirv.com/Broadnet/home%20page.png" className="img-fluid" width={200} height={100} alt="Mockup preview of WLC website"/>
+
+
+
+    <section className="container py-5">
+      <div className="row align-items-center">
+        {/* Left Content */}
+        <div className="col-sm">
+          <h2 className="fw-bold mb-4 display-1">
+            Why Broadnet is Right for You
+          </h2>
+          <p className="text-muted">
+            Since its inception, <strong>Broadnet Africa</strong> has been
+            providing total IT solutions and comprehensive support services
+            through dedicated strategic partnerships with our clients.
+          </p>
+          <p className="text-muted">
+            As an ICT solution and services provider with over{" "}
+            <strong>10 years of existence</strong> and experience serving some
+            of the world’s foremost organizations on the African continent, our
+            experienced technical team understands the growing demands of the
+            African market.
+          </p>
+          <p className="text-muted">
+            Constantly at the forefront of emerging technologies, Broadnet
+            offers reputable and flexible ICT solutions through a varied
+            portfolio of technologies and services. We have successfully
+            delivered turnkey IT solutions and support services to a wide
+            variety of clients across both the private and public sectors.
+          </p>
+          <p className="text-muted">
+            Renowned for our <strong>customer-oriented approach</strong>, we
+            have earned the respect of clients everywhere as a reliable and
+            trustworthy business technology partner.
+          </p>
         </div>
+
+        {/* Right Side (Optional Image / Icon Section) */}
+      
+     
+      </div>
+    </section>
+
+
+        
       </div>
       <div className="text-center">
         <h1 className="mb-3">Our Global Partners</h1>
@@ -146,6 +289,7 @@ Fortis-Comm, a division of Broadnet Africa, specializes in two-way radio devices
           
           </Marquee>
       </div>
+      <OurCompetencies/>
       <div className="row mt-5 mb-5">
       <div className="text-center">
         <div >
@@ -173,3 +317,5 @@ Fortis-Comm, a division of Broadnet Africa, specializes in two-way radio devices
    </main>
   );
 }
+
+

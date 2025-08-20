@@ -85,9 +85,13 @@ export const Footer=()=>{
                 <div>
                     <h6 className='mb-3'>Contact Details</h6>
                 </div>
-                <p><i className="bi bi-envelope me-2 "></i>sinfo@broadnetafrica.net</p>
+                <p><i className="bi bi-envelope me-2 "></i>info@broadnetafrica.net</p>
+                                <p><i className="bi bi-envelope me-2 "></i>business@broadnetafrica.net</p>
+                                                <p><i className="bi bi-envelope me-2 "></i>support@broadnetafrica.net</p>
+                <p><i className="bi bi-envelope me-2 "></i>sales@broadnetafrica.net</p>
+
+
                 <p><i className="bi bi-telephone me-2"></i>+263 77 514 6727</p>
-                <p><i className="bi bi-geo-alt me-2"></i>31 Mc Meekan Rd<br/><span className='ms-4'> Milton Park</span><br/><span className='ms-4'>Harare</span><br/><span className='ms-4'>Zimbabwe</span></p>
             </div>
             <div className="col-sm">
                 <div className='mb-3'>
@@ -110,10 +114,10 @@ export const Footer=()=>{
             </div>
             <div className="col-sm text-center">
                
-                    <Image src="https://ngratesc.sirv.com/website/aurora_logo.png" width={30} height={25} className='img-fluid' alt="Aurora logo"/>
-                    <h6>Aurora</h6>
+                    <Image src="https://ngratesc.sirv.com/Broadnet/logo.png" width={30} height={25} className='img-fluid' alt="Aurora logo"/>
+                    <h6>Broadnet</h6>
                 
-                <iframe src="https://aurorasystems.substack.com/embed"  ></iframe>
+                <iframe src="https://broadnetafr.substack.com/embed"  ></iframe>
             </div>
         </div>
     )
