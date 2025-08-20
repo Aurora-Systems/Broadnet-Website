@@ -1,21 +1,21 @@
-"use client"
-import global from "../global"
-import { useEffect } from 'react';
+"use client";
+import global from "../global";
+import { useEffect } from "react";
 
 const SubstackFeed = () => {
   useEffect(() => {
     window.SubstackFeedWidget = {
-      substackUrl: "aurorasystems.substack.com",
+      substackUrl: "broadnetafr.substack.com",
       layout: "right",
       posts: 3,
       colors: {
-        primary: "#00aeff",
+        primary: "#07923f",
         secondary: "#808080",
         background: "#FFFFFF",
       },
     };
 
-    const script = document.createElement('script');
+    const script = document.createElement("script");
     script.src = "https://substackapi.com/embeds/feed.js";
     script.async = true;
     document.body.appendChild(script);

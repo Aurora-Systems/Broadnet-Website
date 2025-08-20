@@ -1,17 +1,16 @@
 const page_links = {
-    home: "/",
-    roadmap: "/roadmap",
-    portfolio: "/portfolio",
-    careers: "/careers",
-    contact: "/contact_us",
-    blog: "/blog",
-    legal: "/legal",
-    services: {
-        broadtrak: "/services/ai_and_automation",
-        intactsys: "/services/ux_design",
-        fortis_comm: "/services/mobile_app_development",
-       
-    }
-}
+  home: "/",
+  roadmap: "/roadmap",
+  portfolio: "/portfolio",
+  careers: "/careers",
+  contact: "/contact_us",
+  blog: "/blog",
+  legal: "/legal",
+  services: {
+    broadtrak: "/services/Broadtrak",
+    intactsys: "/services/Intactsys",
+    fortis_comm: "/services/Fortis_Comm",
+  },
+};
 
-export default page_links
+export default page_links;
