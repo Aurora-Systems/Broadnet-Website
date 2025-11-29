@@ -117,7 +117,7 @@ const OurCompetencies = () => {
         </div>
         <div className="col-sm  text-center">
           <Image 
-            src="https://ngratesc.sirv.com/Broadnet/105393.jpg"
+            src="https://cdn.clipond.com/Broadnet/105393.jpg"
             className="img-fluid ms-5 rounded" 
             width={1000} 
             height={500}
@@ -137,7 +137,7 @@ const OurCompetencies = () => {
         </div>
         <div className="col-sm text-center">
           <Image 
-            src="https://ngratesc.sirv.com/Broadnet/logo.png" 
+            src="https://cdn.clipond.com/Broadnet/logo.png" 
             width={600} 
             height={650}
             className="img-fluid"
@@ -229,61 +229,61 @@ Fortis-Comm, a division of Broadnet Africa, specializes in two-way radio devices
         <h1 className="mb-3">Our Global Partners</h1>
           <Marquee loop={0} className="gap-5 z-0">
           <div className="col-sm  me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/avigilon.png" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/avigilon.png" width={40} height={40} alt="FIF logo"/>
               <p><small>Avigilon</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/checkpoint.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/checkpoint.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>Checkpoint</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/cisco.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/cisco.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>Cisco</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/dell.png" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/dell.png" width={40} height={40} alt="FIF logo"/>
               <p><small>Dell</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/fortinet.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/fortinet.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>Fortinet</small></p>
 
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/hp.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/hp.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>HP</small></p>
 
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/hytera.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/hytera.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>Hytera</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/ibm.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/ibm.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>IBM</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/inmarsat.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/inmarsat.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>Inmarsat</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/motorola.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/motorola.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>Motorola</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/ntt.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/ntt.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>NTT</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/poly.jpeg" width={40} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/poly.jpeg" width={40} height={40} alt="FIF logo"/>
               <p><small>Poly</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/ruckus.png" width={100} height={40} alt="FIF logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/ruckus.png" width={100} height={40} alt="FIF logo"/>
               <p><small>Ruckus</small></p>
             </div>
             <div className="col-sm ms-5 me-5">
-              <Image src="https://ngratesc.sirv.com/Broadnet/solarwinds.jpeg" width={90} height={40} alt="OFH logo"/>
+              <Image src="https://cdn.clipond.com/Broadnet/solarwinds.jpeg" width={90} height={40} alt="OFH logo"/>
               <p><small>Solarwinds</small></p>
             </div>
           
@@ -294,7 +294,7 @@ Fortis-Comm, a division of Broadnet Africa, specializes in two-way radio devices
       <div className="text-center">
         <div >
         <Image 
-          src="https://ngratesc.sirv.com/Broadnet/award.jpg" 
+          src="https://cdn.clipond.com/Broadnet/award.jpg" 
           width={500} 
           height={0}
           className="img-fluid rounded"
