@@ -23,7 +23,7 @@ export default function FortisComm() {
               </div>
               <div className="col-sm text-center">
                 <Image
-                  src="https://ngratesc.sirv.com/Broadnet/42735.jpg"
+                  src="https://cdn.clipond.com/Broadnet/42735.jpg"
                   className="img-fluid rounded"
                   width={1000}
                   height={500}
