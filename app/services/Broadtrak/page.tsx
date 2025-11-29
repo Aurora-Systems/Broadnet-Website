@@ -22,7 +22,7 @@ export default function BroadTrak() {
               </div>
               <div className="col-sm text-center">
                 <Image
-                  src="https://ngratesc.sirv.com/Broadnet/woman-using-gps-navigation-map-digital-tablet_1016675-33.avif"
+                  src="https://cdn.clipond.com/Broadnet/woman-using-gps-navigation-map-digital-tablet_1016675-33.avif"
                   className="img-fluid rounded"
                   width={1000}
                   height={500}
