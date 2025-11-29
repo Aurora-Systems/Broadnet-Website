@@ -22,7 +22,7 @@ export default function IntactSys() {
               </div>
               <div className="col-sm text-center">
                 <Image
-                  src="https://ngratesc.sirv.com/Broadnet/122595.jpg"
+                  src="https://cdn.clipond.com/Broadnet/122595.jpg"
                   className="img-fluid rounded"
                   width={1000}
                   height={500}
