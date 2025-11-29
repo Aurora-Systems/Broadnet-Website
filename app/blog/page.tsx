@@ -6,7 +6,7 @@ export default function Blog() {
         <div className="container">
           <div>
             <img
-              src="https://ngratesc.sirv.com/Broadnet/logo.png"
+              src="https://cdn.clipond.com/Broadnet/logo.png"
               className="img-fluid"
               width={80}
             />
